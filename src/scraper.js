@@ -2,7 +2,7 @@ const mapper = require('./mapper');
 const HttpClient = require('./httpclient');
 
 const POSTS_PER_PAGE = 10;
-const BASE_POSTS_URL = 'https://9gag.com/v1/group-posts/group/default/type/';
+const BASE_POSTS_URL = 'https://9gag.com/v1/group-posts/group/germany/type/';
 const BASE_COMMENTS_URL = 'https://comment-cdn.9gag.com/v1/topComments.json?appId=a_dd8f2b7d304a10edaf6f29517ea0ca4100a43d1b&urls=http%3A%2F%2F9gag.com%2Fgag%2F';
 
 class Scraper {
